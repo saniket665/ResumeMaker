@@ -1,0 +1,54 @@
+.resume-template-container {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: calc(88vh - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.resume-template-title {
+    font-size: 1.6rem;
+}
+.resume-template-container p {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.resume-templates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.template-card {
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    margin: 0 1rem;
+    position: relative;
+}
+.template-img {
+    width: inherit;
+    border-radius: 5px;
+}
+.template-card:hover {
+    opacity: 0.8;
+}
+.use-template-btn {
+    background: linear-gradient(45deg, #1DBFAF 0%, #1EAEDB 85%, #1EAEDB 100%);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+

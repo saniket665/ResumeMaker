@@ -1,0 +1,74 @@
+.details-container {
+    margin: 5%;
+    display: flex;
+    gap: 5%;
+}
+.form-card, .resume-preview {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    flex-basis: 51%;
+    padding: 1.5rem 1.3rem;
+    color: rgb(37, 37, 37);
+    position: relative;
+}
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+}
+.form-title {
+    font-size: 1.8rem;
+    text-align: center;
+} 
+.input-container {
+    width: 47%;
+    margin-bottom: 0.4rem;
+}
+.input-container label {
+    color: rgb(111, 111, 111);
+}
+.full {
+    width: 100%;
+}
+.next-btn-container, .back-btn-container {
+    margin-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+.next-btn {
+    background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+    border: none;
+    padding: 6px;
+    width: 70%;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-container {
+    position: absolute;
+    bottom: 10%;
+    width: 100%; 
+}
+.back-btn-container {
+    margin-top: 1rem;
+    transition: all 0.3s linear;
+}
+.back-btn {
+    color: #1DBFAF;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.back-btn:hover {
+    color: #1EAEDB;
+    opacity: 0.8;
+}
+.next-btn:hover {
+    background: #1EAEDB;
+}
+.resume-preview {
+    flex-basis: 44%;
+    padding: 0;
+}

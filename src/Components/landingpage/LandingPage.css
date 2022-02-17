@@ -1,0 +1,32 @@
+.landing-page {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    font-size: 1.8rem;
+}
+.subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.getting-started-btn {
+    background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+    border: 2px solid transparent;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.getting-started-btn:hover {
+    background: white;
+    border: 2px solid #1DBFAF;
+    color: black;
+}
+.image img {
+    width: 26rem;
+}

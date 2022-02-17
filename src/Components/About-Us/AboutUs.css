@@ -1,0 +1,26 @@
+.about-container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60vh;
+    gap: 4rem;
+    margin-top: 6%;
+}
+.about-content {
+    width: 50%;
+}
+.about-content p {
+    color: black;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+.about-content p:nth-child(2) {
+    font-weight: bold;
+}
+.about-img {
+    height: 20rem;
+}
+.about-img img {
+    width: 20rem;
+    margin-top: 1.6rem;
+}
