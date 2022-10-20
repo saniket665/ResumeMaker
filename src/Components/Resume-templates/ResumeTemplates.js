@@ -23,7 +23,7 @@ function ResumeTemplates(props) {
       <div className="resume-templates">
         {skincds.map((skincd, index) => (
           <div key={index} className="template-card">
-            <img src={'/images/' + skincd + '.svg'} className="template-img" alt="" />
+            <img src={'images/' + skincd + '.svg'} className="template-img" alt="" />
             <button className="use-template-btn" onClick={() => changeSkin(skincd)}>Use Template</button>
           </div>
         ))
